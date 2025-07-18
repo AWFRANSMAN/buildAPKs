@@ -102,4 +102,5 @@ echo ""
 echo "2. After adding secrets, the workflow will sign your APK and upload it to GitHub Releases."
 echo ""
 echo "3. For new versions, just run:"
-echo "   git tag v1.0.1 && git push origin v1.0.1"
+echo "   git tag v1.0.1 && git push origin v1.0.1"chmod +x setup_android_ci.sh
+./setup_android_ci.sh https://github.com/YOUR_USERNAME/YOUR_REPO.git
